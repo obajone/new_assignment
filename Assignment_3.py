@@ -1,5 +1,8 @@
 # ASSIGNMENT 
-array1 = [["names", "Eng", "Math", "chemistry"], ["jude", 70, 90, 80], ["kate", 50, 60, 90], ["caleb", 90, 77, 70]]
+array1 = [["names", "Eng", "Math", "chemistry"], 
+["jude", 70, 90, 80],
+ ["kate", 50, 60, 90], 
+ ["caleb", 90, 77, 70]]
 
 def student_average(array, student):
   a = []
@@ -28,7 +31,7 @@ def subject_average(array, subject):
   average = round(total/len(scores), 2)
   return average
 
-e = student_average(array1, "caleb")
+e = student_average(array1, "jude")
 d = subject_average(array1, "chemistry")
 print(f'Average score of the student {e}')
 print(f'Average score of the subject is {d}')
